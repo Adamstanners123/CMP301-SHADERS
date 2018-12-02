@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ShadowMapping">
+      <UniqueIdentifier>{a41f060d-9bfd-4a93-b3b3-6b0f69505e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CelShading">
+      <UniqueIdentifier>{8fec53fe-6278-4131-b28b-88deedcb8186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CelShading">
+      <UniqueIdentifier>{0c60ea20-daa3-4794-b766-3d4cf85d1fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ShadowMapping">
+      <UniqueIdentifier>{7e774cd0-a1c0-493a-a8f7-dd8917354582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CelShading">
+      <UniqueIdentifier>{92518347-4157-4c2f-a7d6-1aca71941411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShadowMapping">
+      <UniqueIdentifier>{8014a16d-eb26-429b-9173-3fc06ced7561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeightMap">
+      <UniqueIdentifier>{29bd747d-c1a4-430f-b952-fd5eeba2a3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{467ed391-e9ea-4090-98bc-0b143d5cd560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{69719ccf-2188-4df9-ba73-599adc6cddeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DispNormMapping">
+      <UniqueIdentifier>{974ab05c-0add-4fdd-958a-8163bac57732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DispNormMapping">
+      <UniqueIdentifier>{a78276ea-e59a-43bc-b5a5-d1ee0b0733c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DispNormMapping">
+      <UniqueIdentifier>{ca1185da-5510-4d8e-8b50-12f8c6ace0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Texturing">
+      <UniqueIdentifier>{a648c989-5df6-46f6-8e5c-81a5d77ba266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Water">
+      <UniqueIdentifier>{e3a4ad99-8fb0-42cf-bada-77f3808ecfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Water">
+      <UniqueIdentifier>{6f246329-96ff-4740-a771-5a973b9513ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Water">
+      <UniqueIdentifier>{45867b0c-ccaf-403e-8468-1957725a401f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Terrain">
+      <UniqueIdentifier>{514f44b4-1aec-4dc2-aa32-c2f0b8c5d57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Grass">
+      <UniqueIdentifier>{e888643c-669c-4dda-a8a7-a9449dd044e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CelShader.cpp">
+      <Filter>Source Files\CelShading</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlineShader.cpp">
+      <Filter>Source Files\CelShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files\ShadowMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\HeightMap</Filter>
+    </ClCompile>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files\DispNormMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Source Files\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionShader.cpp">
+      <Filter>Source Files\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShader.cpp">
+      <Filter>Source Files\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLight.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\ShadowMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="CelShader.h">
+      <Filter>Header Files\CelShading</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlineShader.h">
+      <Filter>Header Files\CelShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files\DispNormMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Header Files\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionShader.h">
+      <Filter>Header Files\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShader.h">
+      <Filter>Header Files\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLight.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LightType.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="cel_vs.hlsl">
+      <Filter>Resource Files\CelShading</Filter>
+    </FxCompile>
+    <FxCompile Include="cel_ps.hlsl">
+      <Filter>Resource Files\CelShading</Filter>
+    </FxCompile>
+    <FxCompile Include="outline_vs.hlsl">
+      <Filter>Resource Files\CelShading</Filter>
+    </FxCompile>
+    <FxCompile Include="outline_ps.hlsl">
+      <Filter>Resource Files\CelShading</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_ps.hlsl">
+      <Filter>Resource Files\ShadowMapping</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\ShadowMapping</Filter>
+    </FxCompile>
+    <FxCompile Include="terraintexture_ps.hlsl">
+      <Filter>Resource Files\Texturing</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_ps.hlsl">
+      <Filter>Resource Files\Texturing</Filter>
+    </FxCompile>
+    <FxCompile Include="texture_vs.hlsl">
+      <Filter>Resource Files\Texturing</Filter>
+    </FxCompile>
+    <FxCompile Include="terraincel_ps.hlsl">
+      <Filter>Resource Files\CelShading</Filter>
+    </FxCompile>
+    <FxCompile Include="reflection_ps.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="reflection_vs.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="terrainnormdisp_hs.hlsl">
+      <Filter>Resource Files\DispNormMapping</Filter>
+    </FxCompile>
+    <FxCompile Include="terrainnormdisp_ds.hlsl">
+      <Filter>Resource Files\DispNormMapping</Filter>
+    </FxCompile>
+    <FxCompile Include="terrainnormdisp_ps.hlsl">
+      <Filter>Resource Files\DispNormMapping</Filter>
+    </FxCompile>
+    <FxCompile Include="terrainnormdisp_vs.hlsl">
+      <Filter>Resource Files\DispNormMapping</Filter>
+    </FxCompile>
+    <FxCompile Include="terrainceldisp_ps.hlsl">
+      <Filter>Resource Files\CelShading</Filter>
+    </FxCompile>
+    <FxCompile Include="water_ps.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="water_vs.hlsl">
+      <Filter>Resource Files\Water</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_hs.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_ds.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_ps.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_gs.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+    <FxCompile Include="grass_vs.hlsl">
+      <Filter>Resource Files\Grass</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

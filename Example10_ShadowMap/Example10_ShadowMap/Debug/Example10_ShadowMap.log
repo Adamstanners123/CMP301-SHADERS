@@ -1,0 +1,5 @@
+﻿  Terrain.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(159): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(161): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(178): warning C4101: 'vecsum': unreferenced local variable
+  Example10_ShadowMap.vcxproj -> C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Debug\Example10_ShadowMap.exe

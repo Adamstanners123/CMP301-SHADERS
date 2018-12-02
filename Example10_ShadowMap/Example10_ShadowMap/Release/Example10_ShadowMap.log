@@ -1,0 +1,74 @@
+﻿C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_ps.hlsl(44,8-77): warning X3206: implicit truncation of vector type
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_ps.hlsl(139,26-33): warning X3081: comma expression used where a vector constructor may have been intended
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_ps.hlsl(139,26-38): warning X3081: comma expression used where a vector constructor may have been intended
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_ps.hlsl(139,26-43): warning X3081: comma expression used where a vector constructor may have been intended
+  
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\cel_ps.cso
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_vs.hlsl(84,9-74): warning X3206: implicit truncation of vector type
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_vs.hlsl(107,2-50): warning X3206: implicit truncation of vector type
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_vs.hlsl(72,15-32): warning X3578: Output value 'main' is not completely initialized
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\cel_vs.hlsl(99,2): warning X4000: use of potentially uninitialized variable (output)
+  
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\cel_vs.cso
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\depth_ps.cso
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\depth_vs.hlsl(42,9-74): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\depth_vs.cso
+C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Example10_ShadowMap\outline_ps.hlsl(30,9-71): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\outline_ps.cso
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\outline_vs.cso
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\terrain_ps.cso
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\terrain_vs.cso
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\texture_ps.cso
+  compilation object save succeeded; see C:\Users\Home\Documents\#1_uni_work_and_projects\CMP301 - Graphics Programming with Shaders\Example10_ShadowMap\Release\texture_vs.cso
+  App1.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(24): error C2664: 'Model::Model(const Model &)': cannot convert argument 3 from 'const char [13]' to 'char *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(24): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(28): error C2664: 'void TextureManager::loadTexture(std::string,WCHAR *)': cannot convert argument 2 from 'const wchar_t [17]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(28): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(29): error C2664: 'void TextureManager::loadTexture(std::string,WCHAR *)': cannot convert argument 2 from 'const wchar_t [13]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(29): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(30): error C2664: 'void TextureManager::loadTexture(std::string,WCHAR *)': cannot convert argument 2 from 'const wchar_t [15]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(30): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(31): error C2664: 'void TextureManager::loadTexture(std::string,WCHAR *)': cannot convert argument 2 from 'const wchar_t [17]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(31): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(32): error C2664: 'void TextureManager::loadTexture(std::string,WCHAR *)': cannot convert argument 2 from 'const wchar_t [16]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(32): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(76): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(77): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(139): warning C4305: 'argument': truncation from 'int' to 'bool'
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\app1.cpp(181): warning C4305: 'argument': truncation from 'int' to 'bool'
+  CelShader.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\celshader.cpp(5): error C2664: 'void CelShader::initShader(WCHAR *,WCHAR *)': cannot convert argument 1 from 'const wchar_t [11]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\celshader.cpp(5): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  DepthShader.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\depthshader.cpp(7): error C2664: 'void DepthShader::initShader(WCHAR *,WCHAR *)': cannot convert argument 1 from 'const wchar_t [13]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\depthshader.cpp(7): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  LightShader.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\lightshader.cpp(5): error C2664: 'void LightShader::initShader(WCHAR *,WCHAR *)': cannot convert argument 1 from 'const wchar_t [13]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\lightshader.cpp(5): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  Main.cpp
+  OutlineShader.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\outlineshader.cpp(6): error C2664: 'void OutlineShader::initShader(WCHAR *,WCHAR *)': cannot convert argument 1 from 'const wchar_t [15]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\outlineshader.cpp(6): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  Terrain.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(20): error C2664: 'bool Terrain::heightMapLoad(char *,Terrain::HeightMapData &)': cannot convert argument 1 from 'const char [11]' to 'char *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(20): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(141): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(142): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(143): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(170): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(172): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(243): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(274): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terrain.cpp(276): warning C4018: '<': signed/unsigned mismatch
+  TerrainTexturing.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terraintexturing.cpp(5): error C2664: 'void TerrainTexturing::initShader(WCHAR *,WCHAR *)': cannot convert argument 1 from 'const wchar_t [15]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\terraintexturing.cpp(5): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  TextureShader.cpp
+c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\textureshader.cpp(6): error C2664: 'void TextureShader::initShader(WCHAR *,WCHAR *)': cannot convert argument 1 from 'const wchar_t [15]' to 'WCHAR *'
+  c:\users\home\documents\#1_uni_work_and_projects\cmp301 - graphics programming with shaders\example10_shadowmap\example10_shadowmap\textureshader.cpp(6): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
